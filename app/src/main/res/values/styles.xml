@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MySplashTheme" parent="@style/Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light">
+        <!--   ActionBar颜色 -->
+        <item name="colorPrimary">@color/primary</item>
+        <!--   状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/primary</item>
+        <!--   控件颜色 -->
+        <item name="colorAccent">@color/primary</item>
+        <!-- 背景色 -->
+        <item name="android:windowBackground">@color/window_background</item>
+        <!-- 键盘区域颜色 -->
+        <item name="android:navigationBarColor">@color/primary</item>
+        <!--标题栏字体颜色-->
+        <item name="android:textColorPrimary">@color/md_white_1000</item>
+        <!--内容区域字体颜色-->
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="SplashTheme" parent="@style/AppTheme">
+        <!--     <item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+
+
+    <!--Text Style-->
+    <style name="TextDate">
+        <item name="android:textSize">@dimen/font_12</item>
+        <item name="android:textColor">@color/textThird</item>
+    </style>
+
+    <style name="TextNote">
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">@color/md_light_blue_500</item>
+    </style>
+
+    <style name="TextAbout">
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:textColor">@color/md_light_blue_500</item>
+    </style>
+
+    <style name="TextTranslation">
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">@color/md_blue_grey_900</item>
+    </style>
+
+    <!--=========================================================================================-->
+
+</resources>

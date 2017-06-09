@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:text="确认设置"
+        android:background="#ddd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="279dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/text"
+        android:layout_toStartOf="@+id/bt"
+        android:background="#ddd"
+        android:paddingLeft="5dp"
+        android:text="192.168.1.115"
+        android:layout_alignParentTop="true"
+        app:layout_constraintEnd_toStartOf="@+id/bt"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/ip"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <NumberPicker
+            android:id="@+id/np1"
+            android:layout_width="72dp"
+            android:layout_height="50dp">
+        </NumberPicker>
+        <TextView
+            android:layout_width="11dp"
+            android:layout_height="50dp"
+            android:text="."></TextView>
+        <NumberPicker
+            android:id="@+id/np2"
+            android:layout_width="72dp"
+            android:layout_height="50dp">
+        </NumberPicker>
+        <TextView
+            android:layout_width="11dp"
+            android:layout_height="50dp"
+            android:text="."></TextView>
+        <NumberPicker
+            android:id="@+id/np3"
+            android:layout_width="72dp"
+            android:layout_height="50dp">
+        </NumberPicker>
+        <TextView
+            android:layout_width="11dp"
+            android:layout_height="50dp"
+            android:text="."></TextView>
+        <NumberPicker
+            android:id="@+id/np4"
+            android:layout_width="72dp"
+            android:layout_height="50dp">
+        </NumberPicker>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
